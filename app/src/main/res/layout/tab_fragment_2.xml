@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="2"
+    tools:context=".TabFragment1"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:src="@drawable/vcs"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:paddingTop="10dp"
+            android:text="VCS có một suất đi thẳng vong bảng CKTG"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/editText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:src="@drawable/warzone"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="Warzone rời EVOS sau mùa giải"
+                android:ems="10"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:src="@drawable/thay_ba"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:text="Thầy giáo ba chuẩn bị visa đi allstar tại Las Vegas"
+                android:ems="10"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
